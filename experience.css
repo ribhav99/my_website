@@ -1,0 +1,63 @@
+/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #2a2728; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
+
+body {
+    background: linear-gradient(to right, #7c0818, #dd0422);
+}
+
+#everything {
+    position: absolute;
+}
+
+.tabs {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: left;
+    background-color: transparent;
+    color: #fff;
+    font-size: 150%;
+}
+
+.button:hover {
+    font-size: 160%;
+    transition: 0.05s;
+}
+
+.description {
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+    height: 0;
+    transition: height 1s ease-in-out;
+}
+
+#home {
+    font-size: 75%;
+    text-align: top-left;
+    text-decoration: none;
+    color: white;
+}
+
+#connctDescription {
+    text-align: left;
+}
+
+#demoDayVid {
+    position: relative;
+    width: 656px;
+    height: 369px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#connct {
+    max-height: height: 700px;
+}

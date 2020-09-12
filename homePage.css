@@ -1,0 +1,140 @@
+.tabs {
+    text-align: right;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    word-spacing: 50px;
+    font-size: 130%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.tabs a:hover {
+    font-weight: bold;
+    font-size: 103%;
+}
+
+.tabs a:active {
+    color: red;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+}
+
+#about_me_tab {
+    word-spacing: normal;
+    padding-right: 38px
+}
+
+.text {
+    position: absolute;
+    bottom: 45%;
+    right: 33%;
+    color: white;
+    font-size: 300%;
+}
+
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("profilePic.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*filter: hue-rotate(290deg);*/
+
+}
+
+#links {
+    position: relative;
+    bottom: 5px;
+    display: inline;
+    float: left;
+    word-spacing: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+#insta_logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+    bottom: 3px;
+    right: 10px;
+    /* I think this just moves insta logo a little to the left to make the soacing even */
+}
+
+#fb_logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+    bottom: 3px;
+}
+
+#mail_logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+}
+
+#mail {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#mail_description {
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s linear 0s;
+    text-align: center;
+    position: fixed;
+    left: 50px;
+    z-index: 10000;
+    font-size: 80%;
+}
+
+#logo {
+    position: fixed;
+    left: 20px;
+    top: 50px;
+    width: 75px;
+    height: 75px;
+    filter: invert(40%);
+}
+
+#linkedIn_logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+    bottom: 3px;
+}
+
+#github_logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+}
+
+#researchGate_logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+}

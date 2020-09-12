@@ -1,0 +1,208 @@
+body {
+    background: linear-gradient(to right, #7c0818, #dd0422);
+}
+
+#everything {
+    position: absolute;
+}
+
+.tabs {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: left;
+    background-color: transparent;
+    color: #fff;
+    font-size: 150%;
+}
+
+.button:hover {
+    font-size: 160%;
+    transition: 0.05s;
+}
+
+.description {
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+    height: 0;
+    transition: height 1s ease-in-out;
+}
+
+#space_invaders {
+    max-height: 425px;
+    background: black url("space_invaders_img.png");
+    background-repeat: no-repeat;
+    background-position: 95% 7px;
+    background-size: 55% 95%;
+    text-align: right;
+}
+
+#SIDescription {
+    text-align: left;
+    width: 40%;
+    padding-left: 17px;
+    padding-top: 100px;
+}
+
+.VTimage {
+    max-width: 375px;
+    max-height: 700px;
+    padding-top: 15px;
+    width: 30%;
+    height: auto;
+}
+
+#VTpicker img {
+    display: inline;
+}
+
+.VTDescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#virtual_trainer {
+    max-height: 800px;
+}
+
+#home {
+    font-size: 75%;
+    text-align: top-left;
+    text-decoration: none;
+    color: white;
+}
+
+.PGAimage {
+    max-width: 375px;
+    max-height: 700px;
+    padding-top: 15px;
+    width: 30%;
+    height: auto;
+    padding-right: 30px;
+}
+
+#PGADescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#pygame_assignment {
+    max-height: 600px;
+}
+
+.LEDDescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#LED {
+    max-height: 600px;
+}
+
+#vidWave {
+    position: relative;
+    width: 656px;
+    height: 369px;
+    bottom: 20px;
+    left: 25%;
+}
+
+#vidBlink {
+    position: relative;
+    width: 656px;
+    height: 369px;
+    bottom: 20px;
+    #left: 30%;
+}
+
+#genesysVid {
+    position: relative;
+    width: 656px;
+    height: 369px;
+    bottom: 20px;
+    left: 30%;
+}
+
+
+#orbisChallengeDescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#androidGameCenterDescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#makeHarvard {
+    max-height: 530px;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#droneVid {
+    position: relative;
+    width: 656px;
+    height: 369px;
+    bottom: 20px;
+    left: 30%;
+}
+
+#orbisChallengeGame {
+    height: auto;
+    width: 70%;
+    position: relative;
+    padding-left: 15%;
+}
+
+#orbisChallengeWin {
+    height: auto;
+    width: 30%;
+    padding-left: 35%;
+}
+
+#genesysHackathonDescription {
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 125%;
+}
+
+#androidGameCenterPics img {
+    display: inline;
+}
+
+.AGCimage {
+    max-width: 375px;
+    max-height: 700px;
+    padding-top: 15px;
+    width: 30%;
+    height: auto;
+}

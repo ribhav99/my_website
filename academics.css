@@ -1,0 +1,120 @@
+body {
+    background: #266cc9 url("book_background.png") no-repeat center center fixed;
+    -webkit-background-size: fit;
+    -moz-background-size: fit;
+    -o-background-size: fit;
+    background-size: fit;
+}
+
+#everything {
+    position: absolute;
+    width: 100%;
+}
+
+#uni_d {
+    height: 0;
+    overflow: scroll;
+    width: 100%;
+    transition: height 1s ease-in-out;
+    background: #000000 url("uoft_logo.png") no-repeat center center fixed;
+    -webkit-background-size: fit;
+    -moz-background-size: fit;
+    -o-background-size: fit;
+    background-size: fit;
+    color: white;
+    max-height: 600px;
+}
+
+#high_school_d {
+    height: 0;
+    overflow: scroll;
+    background-color: #ff0000;
+    width: 100%;
+    transition: height 1s ease-in-out;
+    background: #000000 url("tsrs_logo.png") no-repeat center center fixed;
+    -webkit-background-size: fit;
+    -moz-background-size: fit;
+    -o-background-size: fit;
+    background-size: fit;
+    color: white;
+    max-height: 600px;
+}
+
+#standardisedTests_d {
+    height: 0;
+    overflow: scroll;
+    background-color: #ff0000;
+    width: 100%;
+    transition: height 1s ease-in-out;
+    background: #000000;
+    -webkit-background-size: fit;
+    -moz-background-size: fit;
+    -o-background-size: fit;
+    background-size: fit;
+    color: white;
+    max-height: 150px;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 150%;
+    left: 50%;
+}
+
+#uni {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#hs {
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+#standardisedTests {
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+#home {
+    font-size: 75%;
+    text-align: top-left;
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 70px 0;
+    margin: auto auto;
+    padding-bottom: 40px;
+    text-align: left;
+    mix-blend-mode: difference;
+
+}
+
+td {
+    padding: 10px 0;
+}
+
+th {
+    font-size: 150%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
