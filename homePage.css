@@ -138,3 +138,11 @@ html {
     filter: grayscale(100%);
     position: relative;
 }
+
+#twitter_logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    position: relative;
+}
