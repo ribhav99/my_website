@@ -6,6 +6,10 @@ body {
     position: absolute;
 }
 
+a {
+    color: white
+}
+
 .tabs {
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -205,4 +209,12 @@ body {
     padding-top: 15px;
     width: 30%;
     height: auto;
+}
+
+#styleTransfer {
+    max-height: 300px;
+}
+
+#styleTransferDescription {
+    font-size: 150%;
 }
