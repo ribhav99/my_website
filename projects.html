@@ -362,7 +362,54 @@
         <button class="button" ; onclick="toggleNavPanel('algorithmicTrading')"> Algorithmic Trading (2021)</button>
         <div id="algorithmicTrading" ; class="description">
           <p id="algorithmicTradingDescription">
-            &emsp;&emsp; Coming soon...
+            &emsp;&emsp; The goal of this project was to understand the strengths and weaknesses of various machine
+            learning methods with respect to their ability to predict stock prices.
+            I started this project a few months before I started work as a quant at a hedge fund. I wanted to understand
+            how my background in AI would tie into the role I was about to start.
+            <br />
+            I scraped data off yahoo finance and used the alpha vantage api for real time price movements and some
+            market indicators.
+            I was careful to prevent data leakage so that the model performance was not artificially inflated.
+            I also performed PCA to understand if and why some market indicators were better than others and if it was
+            possible to find a way to accurately predict price movement based on just a few indicators so that it would
+            help day traders make decisions based on their beloved candle charts.
+            <br />
+            I used various deep learning architectures like MLPs, CNNs and LSTMs. The architectures were very simplistic
+            and since deepening the network didn't affect model performance significantly,
+            I didn't use more involved architectures like UNet. The deep methods performed very poorly to my surprise.
+            The performance of the models were specious. If you trained the models to predict stock prices
+            after a certain short interval of time, the model would be ~99% accurate. At first this made me quiet
+            excited since, well, money...
+            but after thinking about it for a minute, I realised that predicting the price is not useful since it could
+            be wrong by a few dollars and still be near 100% accurate.
+            What I needed was an algorithm to tell me if the price will be higher or lower after a short interval of
+            time so I would know if I should go long or short on the security.
+            Instead of predicting the price of the security, it made sense to have a binary output where the model would
+            predict if the price would go up or down after a certain amount of time.
+            The performance of the model dropped to around 60% along with my hopes of getting rich.
+            <br />
+            &emsp;&emsp; The next thing I tested was using statistical methods. You can refer to <a
+              href="Statistical Machine Learning vs Deep Learning.pdf">this document</a>
+            to get a general idea of how I decided to differentiate between statistical methods and deep learning
+            methods.
+            This is in no way the absolute right way to do it but it gets the general idea across.
+            <br />
+            UPDATE: reading that document back, I realise that
+            my distinction is very flawed since the meaning of "deep" in deep learning means something entirely
+            different. I wrote that document a while ago and I it should have been
+            titled gradient based vs non-gradient based approaches. But for the purposes of this project, the
+            distinction was made as outlined in that document.
+            <br />
+            I observed that statistical methods like decision trees performed significantly better than the deep
+            learning models when it came to predicting whether the price of a security will go up or down after
+            a short predetermined time period. This was very surprising to me since deep models are universal function
+            approximators. I figured if there is an underlying function to approximate, the models would do a fairly good
+            job of it.
+            <br />
+            My next goal with this project is to scrape twitter and perform sentiment analysis to see if that is a
+            better predictor than
+            the current data I am using. This seems to be a very intersting path with immense possibilities of
+            interpretations and implementations.
           </p>
         </div>
       </div>
