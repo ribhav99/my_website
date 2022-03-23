@@ -1,6 +1,6 @@
 function toggleNavPanel(x) {
-    var panel = document.getElementById(x), maxH="1000px";
-    if (panel.style.height != 0) {
+    var panel = document.getElementById(x);
+    if (panel.style.height != '0px' && panel.style.height) {
         panel.style.height = "0px";
     } else {
         panel.style.height = "1000px";
